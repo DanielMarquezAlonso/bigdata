@@ -17,7 +17,7 @@ def calcular_total(datos, con_iva=True):
     if con_iva:
         total += calcular_iva(total)
     return total
-
+#pr
 if __name__ == "__main__":
     datos = extraer_datos()
     total = calcular_total(datos)
