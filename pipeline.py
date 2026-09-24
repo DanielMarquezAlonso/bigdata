@@ -18,6 +18,9 @@ def calcular_total(datos, con_iva=True):
         total += calcular_iva(total)
     return total
 
+def validad_transacciones():
+    pass
+
 if __name__ == "__main__":
     datos = extraer_datos()
     total = calcular_total(datos)
