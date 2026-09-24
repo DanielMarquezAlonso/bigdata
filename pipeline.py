@@ -18,7 +18,7 @@ def calcular_total(datos, con_iva=True):
         total += calcular_iva(total)
     return total
 
-def validad_transacciones():
+def validad_transaccioness():
     pass
 
 if __name__ == "__main__":
